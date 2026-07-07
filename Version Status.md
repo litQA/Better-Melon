@@ -4,7 +4,7 @@
 # Changelog For New Version
 
 ## New Content
-- Added support for Fabric 26.2, and marked as compatible with Fabric 26.1.x.
+- Added support for Fabric 26.1.x.
 
 
 
