@@ -1,9 +1,59 @@
+# 26.7.1-alpha
+## Changes
+### Melon Blocks
+- Optimized the drop logic for Melon Blocks when destroyed.
+
+### Enchanted Melon
+- Doubled the chance for Enchanted Melon Slices to appear in Ruined Portal loot chests.
+- Changed the registry name of Enchanted Melon Slice from `qa_better_melon:qa_golden_melon` to `qa_better_melon:enchanted_melon_slice` (Note Old Enchanted Melon Slices will disappear after upgrading. It is recommended to craft them into Enchanted Melons before updating the mod).
+- Entities falling onto an Enchanted Melon now also trigger the melon shimmer effect.
+- Enchanted Melons and Waxed Enchanted Melons now also trigger the shimmer effect when destroyed by explosions.
+- The light level of all Enchanted Melon blocks is uniformly set to 6.
+
+### Ender Melon
+- The icon for the post-teleport cooldown state in Ender Resonance has been changed.
+- The trigger condition for automatic random teleport in Ender Resonance has been changed from being in water or rain to taking any damage.
+- After teleporting upon taking damage in Ender Resonance, the cooldown before it can trigger again is reduced to 40 game ticks.
+
+### Achievements
+- Removed all annual limited achievements.
+- Removed the achievement for collecting all Carved Melons.
+- Kept 3 achievements related to total melons eaten, granted when the player has eaten a total of 100, 1000, and 5686 melons respectively.
+- The command to check melon count has been changed from `/meloncount` to `/better_melon show_melon_count`.
+
+## Fixes
+- Enchanted Melon Slabs do not emit light.
+
+## 更改
+### 西瓜方块
+- 西瓜方块破坏后的掉落物逻辑优化
+
+### 附魔西瓜
+- 附魔西瓜片在废弃传送门战利品宝箱中的出现概率翻倍。
+- 附魔西瓜片注册名由 `qa_better_melon:qa_golden_melon` 改为 `qa_better_melon:enchanted_melon_slice`（注意 旧版附魔西瓜片升级后会直接消失，建议先合成为附魔西瓜再升级模组）。
+- 实体摔落到附魔西瓜上时现在也会触发西瓜闪烁效果。
+- 附魔西瓜和涂蜡的附魔西瓜被爆炸破坏时现在也会触发西瓜闪烁效果。
+- 附魔西瓜所有方块的亮度统一调为6。
+
+### 末地西瓜
+- 末影共生状态传送后冷却状态的图标已修改。
+- 末影共生自动随机传送的触发条件由处在水或雨水中改为受到任意伤害。
+- 末影共生受伤传送后，可再次触发传送的冷却时间缩短为40游戏刻。
+
+### 成就
+- 移除了所有年度限定成就。
+- 移除了收集所有雕刻西瓜的成就。
+- 保留3项与吃西瓜总数相关的成就，分别在累计吃掉100、1000、5686个西瓜时授予。
+- 查询吃西瓜总数的指令由 `/meloncount` 改为 `/better_melon show_melon_count`。
+
+## 修复
+- 附魔西瓜台阶不发光。
+
+
 ---
-# 26.7-alpha.0
+# 26.7.0-alpha
 ## New Content
 - Added support for Fabric 26.1.x.
-
-
 
 ## Changes
 ### Normal
