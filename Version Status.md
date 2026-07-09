@@ -1,17 +1,15 @@
-# New Version(26.7.0-alpha) Progress
-███████████████░░░░░░░░ 65.22%
+# New Stable Version Progress
+█████████████████░░░░░░ 73.91%
 
-# Changelog For New Version
-
-## New Content
-- Added support for Fabric 26.1.x.
-
+---
+# Full Changelog For Next Stable Version
 
 
 ## Changes
 ### Normal
 
 - Refactored the underlying logic for right-click eating watermelon. The event no longer listens via the player right-click bus, with significant performance improvements expected.
+- Optimized the drop logic for Melon Blocks when destroyed.
 
 ### Melon Blocks
 - Melon items no longer display a remaining portion in the inventory.
@@ -33,8 +31,25 @@
 - Optimized the state switching logic for carved melon lanterns with the four copper bulb variants.
 - Redstone torches can no longer be placed into carved wmelon lanterns.
 
+### Enchanted Melon
+- Doubled the chance for Enchanted Melon Slices to appear in Ruined Portal loot chests.
+- Changed the registry name of Enchanted Melon Slice from `qa_better_melon:qa_golden_melon` to `qa_better_melon:enchanted_melon_slice` (Note Old Enchanted Melon Slices will disappear after upgrading. It is recommended to craft them into Enchanted Melons before updating the mod).
+- Entities falling onto an Enchanted Melon now also trigger the melon shimmer effect.
+- Enchanted Melons and Waxed Enchanted Melons now also trigger the shimmer effect when destroyed by explosions.
+- The light level of all Enchanted Melon blocks is uniformly set to 6.
+
 ### Ender Melon
 - The Ender Potion effect applied by Ender Melons can now be cleared by drinking milk.
+- The icon for the post-teleport cooldown state in Ender Resonance has been changed.
+- The trigger condition for automatic random teleport in Ender Resonance has been changed from being in water or rain to taking any damage.
+- After teleporting upon taking damage in Ender Resonance, the cooldown before it can trigger again is reduced to 40 game ticks.
+
+### Achievements
+- Removed all annual limited achievements.
+- Removed the achievement for collecting all Carved Melons.
+- Kept 3 achievements related to total melons eaten, granted when the player has eaten a total of 100, 1000, and 5686 melons respectively.
+- The command to check melon count has been changed from `/meloncount` to `/better_melon show_melon_count`.
+
 
 ### Removal
 - Removed the two melon variants added in version 26.0.0-alpha: Sculk Melon and Jala Melon.
@@ -46,3 +61,4 @@
 ## Fixes
 - Hunger and saturation values granted when eating unripe melons and regular melons were incorrect.
 - Blocks cannot be placed on melon lanterns while sneaking.
+- Enchanted Melon Slabs do not emit light.
