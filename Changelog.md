@@ -25,7 +25,7 @@
 - Enchanted Melon Slabs do not emit light.
 
 ## 更改
-### 西瓜方块
+### 常规
 - 西瓜方块破坏后的掉落物逻辑优化
 
 ### 附魔西瓜
