@@ -1,3 +1,26 @@
+# 26.7.2-beta
+## New Content
+### Pumpkin
+#### Common
+- The Huaqiang Melon Knife now gains the ability to cut pumpkins.
+- Added Pumpkin Slab, Pumpkin Stairs and corresponding Cut-up Pumpkin Blocks.
+
+#### Pumpkin Pizza
+- Added raw pumpkin pizza, crafted from wheat and pumpkin blocks.
+- Added pumpkin pizza base, obtained by smelting raw pumpkin pizza in a furnace.
+- Added placeable pizza, which can be eaten four times, each bite consuming one quarter. It can be eaten even when hunger is full, restoring 4 hunger points and 8 saturation points per bite.
+- Pizza is crafted using pumpkin pizza base, milk, eggs, any green‑skinned watermelon, and glistering watermelon.
+- Added Azzip, whose crafting recipe is exactly the reverse of the pizza recipe.
+- Azzip functions identically to pizza, differing only in appearance.
+### Localization
+### Localization
+- Added Russian (Russia, ru-RU) localization support.
+- Added Korean (Democratic People's Republic of Korea, ko-KP) localization support.
+- Added Traditional Chinese (Taiwan region, ***China***, zh-TW) localization support.
+## Changes
+### Removal
+- Removed all functional effects from the wearable melon rind; it now serves only as a decorative item.
+--- 
 # 26.7.1-alpha
 ## Changes
 ### Melon Blocks
