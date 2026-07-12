@@ -1,3 +1,16 @@
+# 27.7.3
+## Fixes
+- Melon blocks fail to place in versions 1.19.4 and below due to the lack of the native `#replaceable` tag.
+- Axes do not increase the mining speed of watermelon blocks.
+- Some Ender Melon blocks incorrectly have their blast resistance set to 1 instead of 3.
+
+## 修复
+- 1.19.4及以下版本由于原生无`#replaceable`标签导致西瓜方块放置失败。
+- 斧头不能加快破坏西瓜方块的速度。
+- 部分末地西瓜方块的抗性被错误地设置为1，而不是3。
+
+---
+
 # 26.7.2-beta
 ## New Content
 ### Pumpkin
