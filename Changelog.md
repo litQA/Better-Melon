@@ -1,3 +1,21 @@
+# 26.7.5
+## Fixes
+- Fixed missing crafting recipes for certain items.
+- Fixed an issue where eating enchanted melon slices increased the player's eaten melon count by 2 instead of 1.
+- Fixed some known issues.
+## 修复
+- 某些物品缺少合成配方。
+- 食用附魔西瓜片时，玩家的已食用西瓜计数会增加 2，而不是 1。
+- 修复了一些已知问题。
+---
+
+# 26.7.4
+## Fixes
+- Fixed some known issues.
+## 修复
+- 修复了一些已知问题。
+---
+
 # 27.7.3
 ## Fixes
 - Melon blocks fail to place in versions 1.19.4 and below due to the lack of the native `#replaceable` tag.
